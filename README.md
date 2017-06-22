@@ -35,3 +35,8 @@ Usage: **being developed**
 ## octave
 
 ## git
+
+## remote desktop
+
+## cgi
+- perl
