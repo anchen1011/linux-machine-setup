@@ -40,3 +40,4 @@ Usage: **being developed**
 
 ## cgi
 - perl
+- cgi-bin
