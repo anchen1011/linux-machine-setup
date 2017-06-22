@@ -1,7 +1,7 @@
 # linux-machine-setup
 Quick linux workstation setup
 
-Usage: *being developed*
+Usage: **being developed**
 
 ## bash
 - .bashrc
