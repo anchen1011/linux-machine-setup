@@ -1,7 +1,13 @@
 # linux-machine-setup
-Quick linux workstation setup
+Quick linux workstation setup **beta**
 
-Usage: **being developed**
+Performance is not stable yet.
+
+Usage: 
+```
+$ chmod +x setup.sh
+$ ./setup.sh
+```
 
 ## bash
 - .bashrc
@@ -35,9 +41,9 @@ Usage: **being developed**
 
 ## git
 
-## remote desktop
+## (remote desktop)
 
-## cgi
+## (cgi)
 - perl
 - cgi-bin
 
