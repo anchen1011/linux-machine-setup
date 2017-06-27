@@ -29,7 +29,10 @@ $ ./setup.sh
 ## zsh
 - .zshrc
 
-## openssh
+## ssh
+- openssh
+- ufw
+- sshd_config
 - (banner)
 
 ## apache
