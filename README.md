@@ -41,3 +41,6 @@ Usage: **being developed**
 ## cgi
 - perl
 - cgi-bin
+
+## gnome
+- libgnome2-bin
