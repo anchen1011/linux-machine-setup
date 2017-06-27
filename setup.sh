@@ -61,3 +61,5 @@ sudo apt-get install git
 sudo apt-get install libgnome2-bin
 
 ip addr
+
+zsh
