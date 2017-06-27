@@ -45,7 +45,7 @@ cp .zshrc ~
 sudo apt-get install openssh-server
 sudo cp /etc/ssh/sshd_config backups/
 sudo cp sshd_config /etc/ssh
-chmod go-w /etc/ssh/sshd_config
+chmod a-w /etc/ssh/sshd_config
 sudo service ssh restart
 
 sudo apt-get install apache2 apache2-doc apache2-utils
