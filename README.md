@@ -24,7 +24,7 @@ Usage: **being developed**
 - .zshrc
 
 ## openssh
-- ???
+- (banner)
 
 ## apache
 - portal
