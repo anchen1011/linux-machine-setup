@@ -43,6 +43,8 @@ sudo apt-get install zsh
 cp .zshrc ~
 
 sudo apt-get install openssh-server
+sudo apt-get install ufw
+sudo ufw limit ssh
 sudo cp /etc/ssh/sshd_config backups/
 sudo cp sshd_config /etc/ssh
 chmod a-w /etc/ssh/sshd_config
