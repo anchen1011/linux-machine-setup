@@ -1,1 +1,1 @@
-export PS1="%d >> "
+export PS1="%~%% "
