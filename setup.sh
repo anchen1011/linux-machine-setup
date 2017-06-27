@@ -44,7 +44,11 @@ cp .zshrc ~
 
 sudo apt-get install openssh-server
 sudo apt-get install ufw
-sudo ufw limit ssh
+sudo ufw limit ssh/tcp
+sudo ufw allow http
+sudo ufw allow https
+sudo ufw allow ftp
+sudo ufw enable
 sudo cp /etc/ssh/sshd_config backups/
 sudo cp sshd_config /etc/ssh
 chmod a-w /etc/ssh/sshd_config
@@ -65,6 +69,7 @@ sudo apt-get install git
 
 sudo apt-get install libgnome2-bin
 
+sudo ufw status
 ip addr
 
 zsh
