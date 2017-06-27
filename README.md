@@ -21,8 +21,7 @@ Usage: **being developed**
 - .tmux.conf
 
 ## zsh
-- prezto
-- ???
+- .zshrc
 
 ## openssh
 - ???
