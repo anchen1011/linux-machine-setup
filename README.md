@@ -36,6 +36,7 @@ $ ./setup.sh
 - openssh
 - ufw
 - sshd_config
+- remote gui
 - banner
 
 ## apache
@@ -49,8 +50,6 @@ $ ./setup.sh
 ## git
 
 ## curl
-
-## (remote desktop)
 
 ## gnome
 - libgnome2-bin
