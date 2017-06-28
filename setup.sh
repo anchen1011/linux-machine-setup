@@ -51,9 +51,10 @@ sudo ufw allow ftp
 sudo ufw enable
 sudo cp /etc/ssh/sshd_config backups/
 sudo cp sshd_config /etc/ssh
-chmod a-w /etc/ssh/sshd_config
+sudo chmod a-w /etc/ssh/sshd_config
 sudo cp /etc/ssh/sshd_banner backups/
 sudo cp sshd_banner /etc/ssh/sshd_banner
+sudo chmod a-w /etc/ssh/sshd_banner
 sudo service ssh restart
 
 sudo apt-get install apache2 apache2-doc apache2-utils
