@@ -5,8 +5,8 @@ export PS1="%~%% "
 setopt SHARE_HISTORY
 HISTSIZE=1000
 if (( ! EUID )); then
-  HISTFILE=~/.history_root
+  HISTFILE=~/.zsh_history_root
 else
-  HISTFILE=~/.history
+  HISTFILE=~/.zsh_history
 fi
 SAVEHIST=1000
