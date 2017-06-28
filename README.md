@@ -44,6 +44,8 @@ $ ./setup.sh
 
 ## git
 
+## curl
+
 ## (remote desktop)
 
 ## (cgi)
