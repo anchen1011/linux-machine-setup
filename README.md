@@ -29,7 +29,12 @@ $ ./setup.sh
 ## tmux
 - .tmux.conf
 
+## git
+
+## curl
+
 ## zsh
+- oh-my-zsh
 - .zshrc
 
 ## ssh
@@ -46,10 +51,6 @@ $ ./setup.sh
 ## subl
 
 ## octave
-
-## git
-
-## curl
 
 ## gnome
 - libgnome2-bin
