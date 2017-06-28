@@ -40,7 +40,9 @@ cp ~/.tmux.conf backups/
 cp .tmux.conf ~
 
 sudo apt-get install zsh
-cp .zshrc ~
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+exit
+echo 'export PS1="%~%% "' >> ~/.zshrc
 
 sudo apt-get install openssh-server
 sudo apt-get install ufw
@@ -76,7 +78,7 @@ sudo apt-get install curl
 
 sudo apt-get install libgnome2-bin
 
+
 sudo ufw status
 ip addr
-
 zsh
