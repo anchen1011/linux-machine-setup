@@ -7,8 +7,8 @@ Usage:
 ```
 $ chmod +x *.sh
 $ ./setup.sh
-[optional] ./safe_mode.sh
-[optional] ./devel_mode.sh
+[optional] $ ./safe_mode.sh
+[optional] $ ./devel_mode.sh
 ```
 **Use safe mode if you're not sure what you're doing.**
 
