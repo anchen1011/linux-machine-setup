@@ -1,6 +1,6 @@
 # setup prompt
 export PS1="%~%% "
-
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 # setup history
 setopt SHARE_HISTORY
 bindkey "^[[A" history-beginning-search-backward
