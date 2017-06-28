@@ -39,6 +39,10 @@ sudo apt-get install tmux
 cp ~/.tmux.conf backups/
 cp .tmux.conf ~
 
+sudo apt-get install git
+
+sudo apt-get install curl
+
 sudo apt-get install zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 exit
@@ -71,10 +75,6 @@ sudo service apache2 reload
 sudo apt-get install sublime-text
 
 sudo apt-get install octave
-
-sudo apt-get install git
-
-sudo apt-get install curl
 
 sudo apt-get install libgnome2-bin
 
