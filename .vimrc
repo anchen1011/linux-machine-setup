@@ -10,3 +10,6 @@ set clipboard+=unnamed
 set clipboard+=unnamedplus
 set paste
 set go+=a
+
+" enable cross-line motion
+set whichwrap+=<,>,h,l
