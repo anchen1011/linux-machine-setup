@@ -33,10 +33,11 @@ $ ./setup.sh
 - openssh
 - ufw
 - sshd_config
-- (banner)
+- banner
 
 ## apache
 - portal
+- cgi-bin
 
 ## subl
 
@@ -47,10 +48,6 @@ $ ./setup.sh
 ## curl
 
 ## (remote desktop)
-
-## (cgi)
-- perl
-- cgi-bin
 
 ## gnome
 - libgnome2-bin
