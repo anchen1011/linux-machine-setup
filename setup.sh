@@ -67,6 +67,8 @@ sudo apt-get install octave
 
 sudo apt-get install git
 
+sudo apt-get install curl
+
 sudo apt-get install libgnome2-bin
 
 sudo ufw status
