@@ -7,4 +7,4 @@ set expandtab
 set paste
 
 " enable cross-line motion
-set whichwrap+=<,>,h,l
+set whichwrap+=<,>,h,l,[,]
