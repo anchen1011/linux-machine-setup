@@ -1,4 +1,4 @@
-mode($1) {
+mode() {
   if [ "$1" == "isolate" ] || [ "$1" == "i" ]; then
     sudo service ssh stop
     sudo service apache2 stop
