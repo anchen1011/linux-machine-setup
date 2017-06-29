@@ -7,10 +7,10 @@ Usage:
 ```
 $ chmod +x *.sh
 $ ./setup.sh
-[optional] $ mode isolate
-[optional] $ mode connect
+[optional] $ isolate
+[optional] $ remote
 ```
-**Use mode connect if you're not sure what you're doing.**
+**Use isolate if you're not sure what you're doing.**
 
 ## bash
 - .bashrc
