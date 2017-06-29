@@ -7,10 +7,10 @@ Usage:
 ```
 $ chmod +x *.sh
 $ ./setup.sh
-[optional] $ ./safe_mode.sh
-[optional] $ ./devel_mode.sh
+[optional] $ mode isolate
+[optional] $ mode connect
 ```
-**Use safe mode if you're not sure what you're doing.**
+**Use mode connect if you're not sure what you're doing.**
 
 ## bash
 - .bashrc
