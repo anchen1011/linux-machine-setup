@@ -1,0 +1,13 @@
+mode($arg1) {
+  if [ "$arg1" == "isolate" ] || [ "$arg1" == "i" ]; then
+    sudo service ssh stop
+    sudo service apache2 stop
+    sudo ufw disable
+  elif [ "$arg1" == "connect" ] || [ "$arg1" == "c" ]; then
+    sudo ufw enable
+    sudo service apache2 start
+    sudo service ssh start
+  else
+    echo "mode [isolate | connect]"
+  fi
+}
