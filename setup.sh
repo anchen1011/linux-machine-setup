@@ -78,6 +78,8 @@ sudo apt-get install octave
 
 sudo apt-get install libgnome2-bin
 
+cat .mode >> ~/.bashrc
+cat .mode >> ~/.zshrc
 
 sudo ufw status
 ip addr
