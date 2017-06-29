@@ -9,6 +9,10 @@ echo '# swap capslock and esc' >>~/.bashrc
 echo '/usr/bin/setxkbmap -option "caps:swapescape"' >>~/.bashrc
 echo '# set python2 as default' >>~/.bashrc
 echo 'alias python=/usr/local/bin/python2.7' >>~/.bashrc
+echo '# setup isolate mode' >>~/.bashrc
+echo 'alias isolate="sudo service ssh stop; sudo service apache2 stop; sudo ufw disable"' >>~/.bashrc
+echo '# setup remote mode' >>~/.bashrc
+echo 'alias remote="sudo ufw enable; sudo service apache2 start; sudo service ssh start"' >>~/.bashrc
 echo '# enter zsh by default' >>~/.bashrc
 echo 'zsh' >>~/.bashrc
 
@@ -46,7 +50,12 @@ sudo apt-get install curl
 sudo apt-get install zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 exit
+echo '# customize prompt' >>~/.zshrc
 echo 'export PS1="%~%% "' >> ~/.zshrc
+echo '# setup isolate mode' >>~/.zshrc
+echo 'alias isolate="sudo service ssh stop; sudo service apache2 stop; sudo ufw disable"' >>~/.zshrc
+echo '# setup remote mode' >>~/.bashrc
+echo 'alias remote="sudo ufw enable; sudo service apache2 start; sudo service ssh start"' >>~/.zshrc
 
 sudo apt-get install openssh-server
 sudo apt-get install ufw
@@ -78,8 +87,6 @@ sudo apt-get install octave
 
 sudo apt-get install libgnome2-bin
 
-cat .mode >> ~/.bashrc
-cat .mode >> ~/.zshrc
 
 sudo ufw status
 ip addr
