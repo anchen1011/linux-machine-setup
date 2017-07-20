@@ -49,12 +49,12 @@ sudo apt-get install curl
 
 sudo apt-get install zsh
 sudo sh -c "$(curl -fsSL https://raw.github.com/anchen1011/oh-my-zsh/master/tools/install.sh)"
-echo '# customize prompt' >>~/.zshrc
-echo 'export PS1="%~%% "' >> ~/.zshrc
-echo '# setup isolate mode' >>~/.zshrc
-echo 'alias isolate="sudo service ssh stop; sudo service apache2 stop; sudo ufw disable"' >>~/.zshrc
-echo '# setup remote mode' >>~/.bashrc
-echo 'alias remote="sudo ufw enable; sudo service apache2 start; sudo service ssh start"' >>~/.zshrc
+sudo echo '# customize prompt' >>~/.zshrc
+sudo echo 'export PS1="%~%% "' >> ~/.zshrc
+sudo echo '# setup isolate mode' >>~/.zshrc
+sudo echo 'alias isolate="sudo service ssh stop; sudo service apache2 stop; sudo ufw disable"' >>~/.zshrc
+sudo echo '# setup remote mode' >>~/.bashrc
+sudo echo 'alias remote="sudo ufw enable; sudo service apache2 start; sudo service ssh start"' >>~/.zshrc
 
 sudo apt-get install openssh-server
 sudo apt-get install ufw
