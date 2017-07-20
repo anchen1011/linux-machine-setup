@@ -4,6 +4,8 @@ Quick linux workstation setup **beta**
 Performance is not stable yet.
 
 Usage: 
+
+For local machine:
 ```
 $ chmod +x *.sh
 $ ./setup.sh
@@ -12,7 +14,11 @@ $ ./setup.sh
 ```
 **Use remote if you're not sure what you're doing.**
 
-**Isolate disable all the incoming connection.**
+For remote machine:
+```
+$ chmod +x *.sh
+$ ./remote.sh
+```
 
 ## bash
 - .bashrc
