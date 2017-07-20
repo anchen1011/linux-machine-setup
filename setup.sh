@@ -34,6 +34,7 @@ sudo make
 sudo checkinstall
 cd ..
 
+sudo apt-get install python-pip
 sudo pip install -U pip setuptools
 sudo pip install numpy
 sudo pip install scipy
