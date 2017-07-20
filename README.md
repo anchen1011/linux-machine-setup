@@ -10,7 +10,9 @@ $ ./setup.sh
 [optional] $ isolate
 [optional] $ remote
 ```
-**Use isolate if you're not sure what you're doing.**
+**Use remote if you're not sure what you're doing.**
+
+**Isolate disable all the incoming connection.**
 
 ## bash
 - .bashrc
