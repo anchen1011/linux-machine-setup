@@ -20,35 +20,35 @@ sudo apt-get update
 sudo apt-get upgrade
 
 sudo apt-get install vim
-cp ~/.vimrc backups/
-cp .vimrc ~
+sudo cp ~/.vimrc backups/
+sudo cp .vimrc ~
 
 sudo apt-get install build-essential checkinstall
 sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
-version=2.7.13
-wget https://www.python.org/ftp/python/$version/Python-$version.tgz
-tar -xvf Python-$version.tgz
-cd Python-$version
-CXX=g++ ./configure
-make
+sudo version=2.7.13
+sudo wget https://www.python.org/ftp/python/$version/Python-$version.tgz
+sudo tar -xvf Python-$version.tgz
+sudo cd Python-$version
+sudo CXX=g++ ./configure
+sudo make
 sudo checkinstall
 cd ..
 
 sudo pip install -U pip setuptools
-pip install numpy
-pip install scipy
-pip install matplotlib
+sudo pip install numpy
+sudo pip install scipy
+sudo pip install matplotlib
 
 sudo apt-get install tmux
-cp ~/.tmux.conf backups/
-cp .tmux.conf ~
+sudo cp ~/.tmux.conf backups/
+sudo cp .tmux.conf ~
 
 sudo apt-get install git
 
 sudo apt-get install curl
 
 sudo apt-get install zsh
-sh -c "$(curl -fsSL https://raw.github.com/anchen1011/oh-my-zsh/master/tools/install.sh)"
+sudo sh -c "$(curl -fsSL https://raw.github.com/anchen1011/oh-my-zsh/master/tools/install.sh)"
 echo '# customize prompt' >>~/.zshrc
 echo 'export PS1="%~%% "' >> ~/.zshrc
 echo '# setup isolate mode' >>~/.zshrc
@@ -73,10 +73,10 @@ sudo service ssh restart
 
 sudo apt-get install apache2 apache2-doc apache2-utils
 sudo service apache2 restart
-cp /var/www/html/index.html backups/
-cp index.html /var/www/html/
-mkdir ~/www
-ln -s ~/www /var/www/html/portal
+sudo cp /var/www/html/index.html backups/
+sudo cp index.html /var/www/html/
+sudo mkdir ~/www
+sudo ln -s ~/www /var/www/html/portal
 sudo ln -s /etc/apache2/mods-available/cgi.load /etc/apache2/mods-enabled/cgi.load
 sudo service apache2 reload
 
