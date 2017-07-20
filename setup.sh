@@ -49,7 +49,6 @@ sudo apt-get install curl
 
 sudo apt-get install zsh
 sh -c "$(curl -fsSL https://raw.github.com/anchen1011/oh-my-zsh/master/tools/install.sh)"
-exit
 echo '# customize prompt' >>~/.zshrc
 echo 'export PS1="%~%% "' >> ~/.zshrc
 echo '# setup isolate mode' >>~/.zshrc
