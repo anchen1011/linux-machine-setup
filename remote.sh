@@ -9,10 +9,6 @@ echo '# swap capslock and esc' >>~/.bashrc
 echo '/usr/bin/setxkbmap -option "caps:swapescape"' >>~/.bashrc
 echo '# set python2 as default' >>~/.bashrc
 echo 'alias python=/usr/local/bin/python2.7' >>~/.bashrc
-echo '# setup isolate mode' >>~/.bashrc
-echo 'alias isolate="sudo service ssh stop; sudo service apache2 stop; sudo ufw disable"' >>~/.bashrc
-echo '# setup remote mode' >>~/.bashrc
-echo 'alias remote="sudo ufw enable; sudo service apache2 start; sudo service ssh start"' >>~/.bashrc
 echo '# enter zsh by default' >>~/.bashrc
 echo 'zsh' >>~/.bashrc
 
@@ -74,6 +70,5 @@ sudo apt-get install octave
 sudo apt-get install libgnome2-bin
 
 
-sudo ufw status
 ip addr
 zsh
