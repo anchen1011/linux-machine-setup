@@ -1,4 +1,6 @@
 mkdir backups
+sudo apt install x11-xkb-utils
+
 cp ~/.zshrc backups/
 
 cp ~/.bashrc backups/
