@@ -80,6 +80,7 @@ sudo apt-get install apache2 apache2-doc apache2-utils
 sudo service apache2 restart
 sudo cp /var/www/html/index.html backups/
 sudo cp index.html /var/www/html/
+sudo chmod a-w /var/www/html/index.html
 sudo mkdir ~/www
 sudo ln -s ~/www /var/www/html/portal
 sudo ln -s /etc/apache2/mods-available/cgi.load /etc/apache2/mods-enabled/cgi.load
