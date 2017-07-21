@@ -55,7 +55,7 @@ sudo echo '# customize prompt' >>~/.zshrc
 sudo echo 'export PS1="%~%% "' >> ~/.zshrc
 sudo echo '# setup isolate mode' >>~/.zshrc
 sudo echo 'alias isolate="sudo service ssh stop; sudo service apache2 stop; sudo ufw disable"' >>~/.zshrc
-sudo echo '# setup remote mode' >>~/.bashrc
+sudo echo '# setup remote mode' >>~/.zshrc
 sudo echo 'alias remote="sudo ufw enable; sudo service apache2 start; sudo service ssh start"' >>~/.zshrc
 sudo chmod a-w ~/.zshrc
 
