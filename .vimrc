@@ -1,3 +1,6 @@
+" enable syntax
+syntax on
+
 " enable mouse
 set mouse=a
 
