@@ -16,6 +16,8 @@ echo 'alias isolate="sudo service ssh stop; sudo service apache2 stop; sudo ufw 
 echo '# setup remote mode' >>~/.bashrc
 echo 'alias remote="sudo ufw enable; sudo service apache2 start; sudo service ssh start"' >>~/.bashrc
 echo '# enter zsh by default' >>~/.bashrc
+sudo echo '# setup sudo with env' >>~/.bashrc
+sudo echo "alias sd='sudo -E env \"PATH=\$PATH\"'" >>~/.bashrc
 echo 'zsh' >>~/.bashrc
 
 sudo apt-get update
@@ -59,6 +61,8 @@ sudo echo '# setup isolate mode' >>~/.zshrc
 sudo echo 'alias isolate="sudo service ssh stop; sudo service apache2 stop; sudo ufw disable"' >>~/.zshrc
 sudo echo '# setup remote mode' >>~/.zshrc
 sudo echo 'alias remote="sudo ufw enable; sudo service apache2 start; sudo service ssh start"' >>~/.zshrc
+sudo echo '# setup sudo with env' >>~/.zshrc
+sudo echo "alias sd='sudo -E env \"PATH=\$PATH\"'" >>~/.zshrc
 sudo chmod a-w ~/.zshrc
 
 sudo apt-get install openssh-server
