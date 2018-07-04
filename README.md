@@ -5,14 +5,13 @@ Performance is not stable yet.
 
 Usage: 
 
-For local machine:
+For local machine: **use remote if you're not sure what you're doing.**
 ```
 $ chmod +x *.sh
 $ ./setup.sh
 [optional] $ isolate
 [optional] $ remote
 ```
-**Use remote if you're not sure what you're doing.**
 
 For remote machine:
 ```
